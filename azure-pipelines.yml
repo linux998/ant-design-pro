@@ -18,10 +18,6 @@ jobs:
         clean: false
       - script: yarn
         displayName: install
-      - script: npm run lint
-        displayName: lint
-      - script: npm run tsc
-        displayName: tsc
       - script: npm run build
         env:
           PROGRESS: none
